@@ -1,9 +1,11 @@
 from colorama import Fore, Style
 from copy import deepcopy
-from battleships_game.class_board import Board
-from battleships_game.class_ship import Ship
 import time
 from random import randint
+
+
+from battleships_game.class_board import Board
+from battleships_game.class_ship import Ship
 
 
 checklist = ['1', '2', '3']
